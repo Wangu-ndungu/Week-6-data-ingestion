@@ -1,0 +1,18 @@
+file_type: csv
+dataset_name: reliancefile
+file_name: Reliance Trends Fashion
+table_name: reliancetrends
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:
+    - brand
+    - description
+    - imageurl
+    - productid
+    - discountprice(inrs.)
+    - originalprice(inrs.)
+    - producturl
+    - categorybygender
+    - category
+   
